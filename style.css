@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+}
+.container{
+    background-color: rgba(210, 217, 211, 0.901);
+    color: black;
+    border: 5px solid rgb(3, 3, 17);
+    height: 430px;
+    width: 300px;
+    position: absolute;
+    left: 550px;
+}
+.num1,.num,.num2{
+    background-color: black;
+    color: aliceblue;
+    font-size: large;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+    
+#res{
+    width: 260px;
+    height: 30px;
+    margin: 15px;
+    background-color: black;
+    color: aliceblue;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: auto 0; 
+        position: absolute;
+        left: 100px;  
+    }
+}
