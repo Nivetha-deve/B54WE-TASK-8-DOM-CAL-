@@ -2,8 +2,8 @@ h1{
     text-align: center;
 }
 .container{
-    background-color: rgba(210, 217, 211, 0.901);
-    color: black;
+    background-color: darkblue;
+    color: rgb(51, 201, 31);
     border: 5px solid rgb(3, 3, 17);
     height: 430px;
     width: 300px;
@@ -11,8 +11,8 @@ h1{
     left: 550px;
 }
 .num1,.num,.num2{
-    background-color: black;
-    color: aliceblue;
+    background-color:greenyellow;
+    color: darkred;
     font-size: large;
     width: 50px;
     height: 50px;
@@ -23,14 +23,28 @@ h1{
     width: 260px;
     height: 30px;
     margin: 15px;
-    background-color: black;
-    color: aliceblue;
+    font-size: 20px;
+    background-color: rgb(0, 255, 34);
+    color: rgb(17, 18, 19);
+}
+.clr{
+    background-color: peachpuff;
+}
+.equal{
+    background-color: silver;
 }
 
-@media only screen and (max-width: 768px) {
+@media (width <800px) {
     .container {
-        width: auto 0; 
-        position: absolute;
-        left: 100px;  
+            background-color: darkblue;
+            color: rgb(10, 230, 46);
+            border: 5px solid rgb(3, 3, 17);
+            height: 430px;
+            width: 300px;
+            position: absolute;
+            left: 190px;
+        }
+        h1{
+            text-align: center;
+        }
     }
-}
